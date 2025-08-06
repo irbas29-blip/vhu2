@@ -1,0 +1,70 @@
+p
+{
+    font-size: 14px; /* Paragraphes de 14 pixels */
+    font-family: Arial, Impact, "Arial Black",  Verdana, sans-serif;
+text-align: left;
+    text-decoration: none;
+  }
+h1
+{
+    font-size: 40px; /* Titres de 40 pixels */
+    font-family:  Arial, Impact, "Arial Black",  Verdana, sans-serif;
+    text-decoration: underline;
+    text-align: center
+}h2
+{
+    font-size: 25px; 
+    font-family:  Arial, Impact, "Arial Black",  Verdana, sans-serif;
+    text-decoration: underline;
+   text-align: center;
+}
+h3
+{
+    font-size: 16px; 
+    font-family:  Arial, Impact, "Arial Black",  Verdana, sans-serif;
+    text-decoration: underline;
+   text-align: left;
+}body
+{;  
+	text-align: center;
+  }
+    a /* Liens par défaut (non survolés) */
+{
+   text-decoration: none;
+   color: red;
+   font-family: Arial, Impact, "Arial Black",  Verdana, sans-serif;
+}
+
+section a:hover /* Apparence au survol des liens */
+{  text-decoration: underline;
+   color: green;}
+  
+section{  background-color:rgb(200,260,185);
+  margin-left: 265px;
+   border: 1px solid Black;
+   padding-left: 10px;
+   }
+ nav
+ {background-color:rgb(80,130,65);
+    float: left;
+    width: 260px;
+    border: 1px solid black;
+    text-align: left;
+    height: 100%;
+    overflow: scroll;
+    position:fixed;
+
+  }
+  nav a
+  {color:white;}
+  nav a:hover /* Apparence au survol des liens */
+{  text-decoration: underline;
+   color: red;}
+
+  section img
+  {width: 75% ;}
+  
+  nav h3{color: black;}
+
+   
+
